@@ -1,0 +1,77 @@
+body {
+  background-image: url('sfondo.jpg');
+  background-size: cover;
+}
+
+.sfondo-trasparente {
+  border-radius: 10px;
+  background-color: #131408a8;
+  width: 1000px;
+  height: 1000px;
+  margin: 40px auto 60px auto;
+  padding: 25px;
+}
+
+
+.riquadro {
+  margin: 100px;
+}
+
+.lim {
+  text-align: center;
+}
+
+/* usiamo un id perché ci sarà solo il logo lim nella nostra pagina */
+#logo {
+  width: 200px;
+}
+
+.slogan {
+  color: #32CD32;
+  text-align: center;
+}
+
+.opzioni {
+  text-align: center;
+  background-color: #32CD32;
+  padding: 20px;
+}
+
+/* Margin-bottom 5px perché altrimenti h2 prenderebbe troppo spazio tra titolo e nome della via */
+h2 {
+  display: inline-block;
+  font-style: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.descrizione {
+  font-size: 20px;
+  color: white;
+}
+
+/* Altezza e leggero margine top uguale per tutte e 3 le cariche. Varia solo la lunghezza della base. */
+#carica1 {
+  border-radius: 10px;
+  background: sandybrown;
+  width: 350px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+#carica2 {
+  border-radius: 10px;
+  background: limegreen;
+  width: 525px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+#carica3 {
+  border-radius: 10px;
+  background: firebrick;
+  width: 170px;
+  height: 35px;
+  margin-top: 5px;
+}
